@@ -1,6 +1,10 @@
-# WSL-Guide
+<h1 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/82762656-18de0180-9db7-11ea-9676-ee6fcae615a1.png">
+  <br />
+ WSL Guide
+</h1>
 
-A guide for using WSL and all the tools/utilities that make WSL awesome for Developers.
+### A guide for using WSL and all the tools/utilities that make WSL awesome for Developers.
 
 [wslu](https://github.com/wslutilities/wslu) is a collection of utilities for Windows 10 Linux Subsystem, such as retrieving Windows 10 environment variables or creating your favorite Linux GUI application shortcuts on Windows 10 Desktop.
 
