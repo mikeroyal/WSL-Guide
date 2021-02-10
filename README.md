@@ -6,6 +6,8 @@
 
 #### A guide for using WSL and all the tools/utilities that will make you a better and more efficient WSL developer.
 
+<img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
+
 ## Resources
 
 [WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
