@@ -6,13 +6,14 @@
 
 #### A guide for using WSL and all the tools/utilities that will make you a better and more efficient WSL developer.
 
-<img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
-
 # Table of Contents
 
-1. [WSL Learning Resources]()
+1. [WSL Learning Resources](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#wsl-learning-resources)
 
-2. [WSL Tools & Projects]()
+2. [WSL Tools & Projects](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#wsl-tools--projects)
+
+<img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
+
 
 # WSL Learning Resources
 
