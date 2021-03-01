@@ -21,7 +21,7 @@
 
 # WSL Learning Resources
 
-[Back to the Top]()
+[Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#table-of-contents)
 
 [WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
 
@@ -61,7 +61,7 @@
 
 # WSL Tools & Projects
 
-[Back to the Top]()
+[Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#table-of-contents)
 
 [wslu](https://github.com/wslutilities/wslu) is a collection of utilities for Windows 10 Linux Subsystem, such as retrieving Windows 10 environment variables or creating your favorite Linux GUI application shortcuts on Windows 10 Desktop.
 
@@ -96,7 +96,7 @@
 
 # Setting up WSL Linux Distributions
 
-[Back to the Top]()
+[Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#table-of-contents)
 
 **Requirements**
 
@@ -108,7 +108,9 @@ Before you install any of the Linux Distributions make sure to install/enable th
 Installing Windows Subsystem Linux
 </p>
 
-**Run this command in Powershell:**
+**OR**
+
+**For more technical users you run this command in Powershell:**
 
 ```sh
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
@@ -174,7 +176,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 # Setting up a macOS Workspace VM
 
-[Back to the Top]()
+[Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#table-of-contents)
 
 **REQUIREMENTS**
 
