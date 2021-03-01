@@ -14,7 +14,7 @@
 
 3. [Setting up WSL Linux Distributions](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#setting-up-wsl-linux-distributions)
 
-4. [Setting up macOS Workspace VM](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#setting-up-macos-workspace-vm)
+4. [Setting up macOS Workspace VM](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#setting-up-a-macos-workspace-vm)
 
 <img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
 
