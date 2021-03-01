@@ -110,6 +110,10 @@ Installing Windows Subsystem Linux
 
 **OR**
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/109565559-7fefbb80-7a97-11eb-8502-4d8f2eeb4842.png">
+ </p>
+
 **For more technical users you run this command in Powershell:**
 
 ```sh
