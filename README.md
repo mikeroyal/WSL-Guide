@@ -208,6 +208,6 @@ sudo apt install qemu uml-utilities virt-manager dmg2img git wget libguestfs-too
 
 
 ## License
-[Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/main/README.md#table-of-contents)
+[Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#table-of-contents)
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
