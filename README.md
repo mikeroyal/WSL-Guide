@@ -103,7 +103,7 @@
 Before you install any of the Linux Distributions make sure to install/enable the Windows Subsystem for Linux on your Windows 10 machine. Following the instructions below:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/109563743-0b1b8200-7a95-11eb-9929-dd39abe63175.png">
+<img src="https://user-images.githubusercontent.com/45159366/110054829-ad936980-7d10-11eb-80bd-bc5e96d31d27.png">
 <br />
 Installing Windows Subsystem Linux
 </p>
