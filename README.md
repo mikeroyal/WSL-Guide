@@ -6,6 +6,8 @@
 
 #### A guide for using WSL and all the tools/utilities that will make you a better and more efficient WSL developer.
 
+**Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
+
 # Table of Contents
 
 1. [WSL Learning Resources](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#wsl-learning-resources)
