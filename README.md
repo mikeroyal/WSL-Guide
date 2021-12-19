@@ -8,6 +8,11 @@
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/146692531-b811593e-031d-451a-8807-746363ad08a9.png">
+  <br />
+</p>
+
 # Table of Contents
 
 1. [WSL Learning Resources](https://github.com/mikeroyal/WSL-Guide#wsl-learning-resources)
