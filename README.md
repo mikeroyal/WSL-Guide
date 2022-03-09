@@ -82,6 +82,8 @@
 
 [WSLg](https://github.com/microsoft/wslg) is the Windows Subsystem for Linux GUI and the purpose of the project is to enable support for running Linux GUI applications (X11 and [Wayland](https://wayland.freedesktop.org/)) on Windows in a fully integrated desktop experience. WSLg uses the [Weston compositor](https://github.com/wayland-project/weston), which is the standard Weston compositor with a heavily expanded RDP backend, a new RAIL/VAIL shell and various bug fixes. 
 
+[SONiC](https://azure.github.io/SONiC/) is an open source network operating system based on Linux that runs on switches from multiple vendors and ASICs. It offers a full-suite of network functionality, like BGP and RDMA, that has been production-hardened in the data centers of some of the largest cloud-service providers.
+
 [Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere) is a secured, high-level application platform with built-in communication and security features for internet-connected devices. It comprises a secured, connected, crossover microcontroller unit (MCU), a custom high-level Linux-based operating system (OS), and a cloud-based security service that provides continuous, renewable security.
 
 [wslu](https://github.com/wslutilities/wslu) is a collection of utilities for Windows 10 Linux Subsystem, such as retrieving Windows 10 environment variables or creating your favorite Linux GUI application shortcuts on Windows 10 Desktop.
