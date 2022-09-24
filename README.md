@@ -30,6 +30,8 @@
 4. [Azure Development](https://github.com/mikeroyal/WSL-Guide#azure-development)
 
 5. [Kubernetes](https://github.com/mikeroyal/WSL-Guide#kubernetes)
+    * [Installing Kubernetes on WSL with Docker Desktop](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-docker-desktop)
+    * [Installing Kubernetes on WSL with Microk8s](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-microk8s)
 
 6. [PowerShell Development](https://github.com/mikeroyal/WSL-Guide#powershell-development)
 
@@ -124,8 +126,6 @@ The command you use to import the WSL2 image back into WSL2, either on the same 
 
 [APT (Advanced Package Tool)](https://en.wikipedia.org/wiki/APT_(software)) is a higher-level package management systemtool, that is more commonly used than dpkg as it can fetch packages from remote locations.
 
-[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) is an free and open source community-based repository project from the Fedora team which provides 100% high-quality add-on software packages for Linux distribution including RHEL (Red Hat Enterprise Linux) and CentOS Stream.
-
 [TDNF(Tiny Dandified) package manager](https://microsoft.github.io/CBL-Mariner/docs/) is a C based successor of the DNF package manager, which itself is the successor to Fedora’s YUM package manager. TDNF is included in the base CBL-Mariner image by default.
 
 [DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) is a software package manager that installs, updates, and removes packages on Fedora and is the successor to YUM (Yellow-Dog Updater Modified). DNF makes it easy to maintain packages by automatically checking for dependencies and determines the actions required to install packages.
@@ -134,9 +134,9 @@ The command you use to import the WSL2 image back into WSL2, either on the same 
 
 [RPM Package Manager (RPM)](https://rpm.org/) is a powerful package management system capable of building computer software from source into easily distributable packages installing, updating and uninstalling packaged software querying detailed information about the packaged software, whether installed or not.
 
-[YUM (Yellowdog Updater, Modified)](https://www.digitalocean.com/community/tutorials/what-is-yum) is a software package-management utility for Linux operating system using the RPM Package Manager.
+[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) is an free and open source community-based repository project from the Fedora team which provides 100% high-quality add-on software packages for Linux distribution including RHEL (Red Hat Enterprise Linux) and CentOS Stream.
 
-[RPM Fusion](https://rpmfusion.org/) is a software repository provides software that the Fedora Project or Red Hat doesn't want to ship. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like yum and PackageKit.
+[YUM (Yellowdog Updater, Modified)](https://www.digitalocean.com/community/tutorials/what-is-yum) is a software package-management utility for Linux operating system using the RPM Package Manager.
 
 [ROM OSTree](https://ostreedev.github.io/ostree/) is a hybrid image/package system. It combines libostree as a base image format, and accepts RPM on both the client and server side, sharing code with the dnf project; specifically libdnf. Thus bringing many of the benefits of both projects together.
 
