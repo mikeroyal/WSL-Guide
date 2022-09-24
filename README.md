@@ -15,7 +15,13 @@
 
 # Table of Contents
 
-1. [WSL Learning Resources](https://github.com/mikeroyal/WSL-Guide#wsl-learning-resources)
+1. [Getting Started with WSL](https://github.com/mikeroyal/WSL-Guide#getting-started-with-wsl)
+    * [Developer Resources](https://github.com/mikeroyal/WSL-Guide#developer-resources)
+    * [Books](https://github.com/mikeroyal/WSL-Guide#books)
+    * [Creating Backup & Restore Images in WSL 2](https://github.com/mikeroyal/WSL-Guide#creating-backup--restore-images-in-wsl-2)
+    * [Linux Software Repositories & Package Managers](https://github.com/mikeroyal/WSL-Guide#linux-software-repositories--package-managers)
+    * [Systemd](https://github.com/mikeroyal/WSL-Guide#systemd)  
+    * [Init](https://github.com/mikeroyal/WSL-Guide#init)
 
 2. [WSL Tools & Projects](https://github.com/mikeroyal/WSL-Guide#wsl-tools--projects)
 
@@ -31,48 +37,136 @@
 
 8. [Setting up macOS Workspace VM](https://github.com/mikeroyal/WSL-Guide#setting-up-a-macos-workspace-vm)
 
-<img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
 
-
-# WSL Learning Resources
+# Getting Started with WSL
 
 [Back to the Top](https://github.com/mikeroyal/WSL-Guide/blob/master/README.md#table-of-contents)
 
-[WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
+[Back to the Top](#table-of-contents)
 
-[WSLConf](https://www.youtube.com/playlist?list=PLwFSk464RMxnZkvZ1HKrlNyj-s6Zq4fWe) is a community-initiated event on all things Windows Subsystem for Linux and WSL-related.
+<img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
 
-[What is the Windows Subsystem for Linux?](https://docs.microsoft.com/en-us/windows/wsl/about)
+### Developer Resources
 
-[Pro Windows Subsystem for Linux (WSL): Powerful Tools and Practices for Cross-Platform Development and Collaboration Book](https://www.amazon.com/Windows-Subsystem-Linux-Cross-Platform-Collaboration/dp/1484268725/ref=sr_1_1?dchild=1&keywords=Pro+Windows+Subsystem+for+Linux+%28WSL%29&qid=1614379171&s=digital-text&sr=1-1-catcorr)
+ * [What is the Windows Subsystem for Linux?](https://docs.microsoft.com/en-us/windows/wsl/about)
 
-[Windows Subsystem for Linux 2 (WSL 2) Tips, Tricks, and Techniques Book](https://www.amazon.com/Windows-Subsystem-Linux-Tricks-Techniques-ebook/dp/B08K98C7DB/ref=sr_1_1?dchild=1&keywords=WSL+book&qid=1614379053&s=digital-text&sr=1-1)
+ * [WSL 2 Linux Kernel on GitHub](https://github.com/microsoft/WSL2-Linux-Kernel) is the source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2).
+ 
+ * [Developing in Windows Subsystem for Linux (WSL) 2](https://code.visualstudio.com/docs/remote/wsl)
 
-[Comparing WSL 2 and WSL 1 ](https://docs.microsoft.com/en-us/windows/wsl/compare-versions)
+ * [Using WSL 2 with Visual Studio Code](https://code.visualstudio.com/blogs/2019/09/03/wsl2)
 
-[GPU accelerated machine learning training in the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gpu-compute)
+ * [GPU accelerated machine learning training in the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gpu-compute)
 
-[CUDA on Windows Subsystem for Linux(WSL) 2](https://developer.nvidia.com/blog/announcing-cuda-on-windows-subsystem-for-linux-2/)
+ * [CUDA on Windows Subsystem for Linux(WSL) 2](https://developer.nvidia.com/blog/announcing-cuda-on-windows-subsystem-for-linux-2/)
+ 
+ * [Windows Subsystem for Linux 2 (WSL 2) Tips, Tricks, and Techniques Book](https://www.amazon.com/Windows-Subsystem-Linux-Tricks-Techniques-ebook/dp/B08K98C7DB/ref=sr_1_1?dchild=1&keywords=WSL+book&qid=1614379053&s=digital-text&sr=1-1)
+ 
+ * [WSLG: X11 and Wayland Applications in WSL](https://linuxplumbersconf.org/event/9/contributions/611/attachments/702/1298/XDC2020_-_X11_and_Wayland_applications_in_WSL.pdf)
 
-[Developing in Windows Subsystem for Linux (WSL)](https://code.visualstudio.com/docs/remote/wsl)
+* [How to run Podman on Windows with WSL 2](https://www.redhat.com/sysadmin/podman-windows-wsl2)
 
-[Using WSL 2 with Visual Studio Code](https://code.visualstudio.com/blogs/2019/09/03/wsl2)
+* [Create a development container in Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container)
 
-[WSLG: X11 and Wayland Applications in WSL](https://linuxplumbersconf.org/event/9/contributions/611/attachments/702/1298/XDC2020_-_X11_and_Wayland_applications_in_WSL.pdf)
+* [Getting started with MySQL, MongoDB, PostgreSQL, SQLite, Microsoft SQL Server, or Redis to set up a database on WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database)
 
-[How to run Podman on Windows with WSL 2](https://www.redhat.com/sysadmin/podman-windows-wsl2)
+* [Setting up SAP HANA, express edition into WSL 2 (Windows Subsystem for Linux)](https://blogs.sap.com/2020/09/30/installing-sap-hana-express-edition-into-wsl2-windows-subsystem-for-linux/)
 
-[Create a development container in Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container)
+* [Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
 
-[Getting started with MySQL, MongoDB, PostgreSQL, SQLite, Microsoft SQL Server, or Redis to set up a database on WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database)
+* [Getting started mounting a Linux disk in WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
 
-[Setting up SAP HANA, express edition into WSL 2 (Windows Subsystem for Linux)](https://blogs.sap.com/2020/09/30/installing-sap-hana-express-edition-into-wsl2-windows-subsystem-for-linux/)
+* [Using Fedora with Microsoft's WSL 2](https://fedoramagazine.org/wsl-fedora-33/)
+ 
+ ### Books
+ 
+ [Back to the Top](#table-of-contents)
 
-[Set up your Node.js development environment with WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
+* [Pro Windows Subsystem for Linux (WSL): Powerful Tools and Practices for Cross-Platform Development and Collaboration Book by Hayden Barnes](https://www.amazon.com/Windows-Subsystem-Linux-Cross-Platform-Collaboration/dp/1484268725/ref=sr_1_1?dchild=1&keywords=Pro+Windows+Subsystem+for+Linux+%28WSL%29&qid=1614379171&s=digital-text&sr=1-1-catcorr)
 
-[Getting started mounting a Linux disk in WSL 2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
+### Creating Backup & Restore Images in WSL 2
 
-[Using Fedora with Microsoft's WSL 2](https://fedoramagazine.org/wsl-fedora-33/)
+[Back to the Top](#table-of-contents)
+
+List the images that you have installed. You will need to know the name of the image that you want to backup. To do that, you can use the command in **PowerShell(Admin)**:
+
+```wsl --list```
+
+Now that you have listed out the image you want to backup using the export functionality. Make sure that you don’t have any WSL command environments open. You can also shutdown WSL instances using:
+
+```wsl --shutdown```
+
+To perform the backup/export, the syntax is as follows:
+
+```wsl --export <Image Name> <Export location file name.tar>```
+
+
+You can take a look in the folder you specify for the backup to see the resulting backup file in the form of a .tar file. 
+
+
+The command you use to import the WSL2 image back into WSL2, either on the same machine or a different machine is as follows:
+
+```wsl --import <Image Name> <Directory where you want to store the imported image> <Directory where the exported .tar file exists>```
+     
+     
+### Linux Software Package Formats & Package Managers
+[Back to the Top](#table-of-contents)
+
+[dpkg(Debian Package)](https://www.digitalocean.com/community/tutorials/dpkg-command-in-linux) is the package management system in Debian and its OS derivatives. 
+
+[DEB](https://www.debian.org/distrib/packages) is a Debian Software Package file used on Debian-based Linux systems such Debian, Ubuntu, Linux Mint, and Pop!_OS.
+
+[APT (Advanced Package Tool)](https://en.wikipedia.org/wiki/APT_(software)) is a higher-level package management systemtool, that is more commonly used than dpkg as it can fetch packages from remote locations.
+
+[EPEL (Extra Packages for Enterprise Linux)](https://docs.fedoraproject.org/en-US/epel/) is an free and open source community-based repository project from the Fedora team which provides 100% high-quality add-on software packages for Linux distribution including RHEL (Red Hat Enterprise Linux) and CentOS Stream.
+
+[TDNF(Tiny Dandified) package manager](https://microsoft.github.io/CBL-Mariner/docs/) is a C based successor of the DNF package manager, which itself is the successor to Fedora’s YUM package manager. TDNF is included in the base CBL-Mariner image by default.
+
+[DNF(Dandified Packaging Tool)](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) is a software package manager that installs, updates, and removes packages on Fedora and is the successor to YUM (Yellow-Dog Updater Modified). DNF makes it easy to maintain packages by automatically checking for dependencies and determines the actions required to install packages.
+
+[Micro DNF](https://fedoraproject.org/wiki/Changes/MajorUpgradeOfMicrodnf) is a lightweight C implementation of DNF, designed to be used for doing simple packaging actions when you don't need full-blown DNF and you want the tiniest useful environments possible. Checkout the [Micro DNF GitHub](https://github.com/rpm-software-management/microdnf).
+
+[RPM Package Manager (RPM)](https://rpm.org/) is a powerful package management system capable of building computer software from source into easily distributable packages installing, updating and uninstalling packaged software querying detailed information about the packaged software, whether installed or not.
+
+[YUM (Yellowdog Updater, Modified)](https://www.digitalocean.com/community/tutorials/what-is-yum) is a software package-management utility for Linux operating system using the RPM Package Manager.
+
+[RPM Fusion](https://rpmfusion.org/) is a software repository provides software that the Fedora Project or Red Hat doesn't want to ship. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like yum and PackageKit.
+
+[ROM OSTree](https://ostreedev.github.io/ostree/) is a hybrid image/package system. It combines libostree as a base image format, and accepts RPM on both the client and server side, sharing code with the dnf project; specifically libdnf. Thus bringing many of the benefits of both projects together.
+
+[YaST](https://yast.opensuse.org/) is a installation and configuration tool for openSUSE and the SUSE Linux Enterprise distributions. It features an easy-to-use interface and powerful configuration capabilities.
+
+[Zypper](https://software.opensuse.org/package/zypper) is a command line package manager which makes use of libzypp. It provides functions like repository access, dependency solving, package installation, etc. Zypper repositories are similar to the ones used in YaST, which also makes use of libzypp.
+
+[Pacman](https://archlinux.org/pacman/) is a utility which manages software packages in Arch Linux. It uses simple compressed files as a package format, and maintains a text-based package database (more of a hierarchy), just in case some hand tweaking is necessary. 
+
+
+### Systemd
+[Back to the Top](#table-of-contents)
+
+**[Systemd support is now available in WSL.](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)**
+
+**WSL Systemd requirements:** If you are running Windows 11 and a version of WSL 0.67.6 or above. 
+
+[systemd](https://systemd.io/) is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. It provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for [SysVinit](https://wiki.archlinux.org/title/SysVinit).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/190265681-2266a967-096f-43be-a7ca-ae48815aa5e2.png">
+  <br />
+Systemd Overview
+</p>
+
+### init
+
+[Back to the Top](#table-of-contents)
+
+[init](https://en.wikipedia.org/wiki/Init) is parent of all Linux processes with PID or process ID of 1. It is the first process to start when a computer boots up and runs until the system shuts down. **init stands for initialization**. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/190264913-d77974ff-d96f-4092-a6c0-465ecb6d608b.png">
+  <br />
+Linux Boot Process
+</p>
 
 # WSL Tools & Projects
 
