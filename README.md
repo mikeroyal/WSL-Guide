@@ -19,7 +19,7 @@
     * [Developer Resources](https://github.com/mikeroyal/WSL-Guide#developer-resources)
     * [Books](https://github.com/mikeroyal/WSL-Guide#books)
     * [Creating Backup & Restore Images in WSL 2](https://github.com/mikeroyal/WSL-Guide#creating-backup--restore-images-in-wsl-2)
-    * [Linux Software Repositories & Package Managers](https://github.com/mikeroyal/WSL-Guide#linux-software-repositories--package-managers)
+    * [Linux Software Repositories & Package Managers](https://github.com/mikeroyal/WSL-Guide#linux-software-package-formats--package-managers)
     * [Systemd](https://github.com/mikeroyal/WSL-Guide#systemd)  
     * [Init](https://github.com/mikeroyal/WSL-Guide#init)
 
