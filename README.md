@@ -221,27 +221,19 @@ Linux Boot Process
 
 [Back to the Top](https://github.com/mikeroyal/WSL-Guide#table-of-contents)
 
-**Requirements**
+<img src="https://user-images.githubusercontent.com/45159366/107585931-e6c63700-6bb3-11eb-8f25-f07f8ff05688.png">
 
-Before you install any of the Linux Distributions make sure to install/enable the Windows Subsystem for Linux on your Windows 10 machine. Following the instructions below:
+[Pengwin](https://www.microsoft.com/en-us/p/pengwin/9nv1gv1pxz6p?activetab=pivot:overviewtab)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/110054829-ad936980-7d10-11eb-80bd-bc5e96d31d27.png">
-<br />
-Installing Windows Subsystem Linux
+<img src="https://user-images.githubusercontent.com/45159366/109563833-225a6f80-7a95-11eb-93e8-f40799469bcc.png">
 </p>
 
-**OR**
+[Ubuntu 22.04.1 LTS](https://apps.microsoft.com/store/detail/ubuntu-22041-lts/9PN20MSR04DW?hl=en-us&gl=us)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/109565559-7fefbb80-7a97-11eb-8502-4d8f2eeb4842.png">
- </p>
-
-**For more technical users you run this command in Powershell:**
-
-```sh
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-```
+<img src="https://user-images.githubusercontent.com/45159366/192119114-7ccdb71f-17ba-46e1-9cc9-c8e4a989450b.png">
+</p>
 
 [Ubuntu 20.04 LTS](https://www.microsoft.com/en-us/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab)
 
@@ -256,12 +248,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 <img src="https://user-images.githubusercontent.com/45159366/109563781-14a4ea00-7a95-11eb-8008-61867e38cf1e.png">
 </p>
 
-[Fedora 33 fo WSL](https://fedoramagazine.org/wsl-fedora-33/)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/109563789-15d61700-7a95-11eb-9c99-c1e68ead8388.png">
-</p>
-
 [SUSE Linux Enterprise Server 15 SP1](https://www.microsoft.com/en-us/p/suse-linux-enterprise-server-15-sp1/9pn498vpmf3z?activetab=pivot:overviewtab)
 
 <p align="center">
@@ -269,10 +255,16 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 </p>
 
 
-[openSUSE Leap 15.2](https://www.microsoft.com/en-us/p/opensuse-leap-152/9mzd0n9z4m4h?activetab=pivot:overviewtab)
+[openSUSE Leap 15.4](https://apps.microsoft.com/store/detail/opensuse-leap-154/9PJPFJHRM62V?hl=en-us&gl=us)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/109563802-1a9acb00-7a95-11eb-9c6a-14bbcde765dd.png">
+<img src="https://user-images.githubusercontent.com/45159366/192119113-dea4ffc2-2e31-4006-b69d-a1129a672dcb.png">
+</p>
+
+[Fedora Linux for WSL](https://fedoramagazine.org/wsl-fedora-33/)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/109563789-15d61700-7a95-11eb-9c99-c1e68ead8388.png">
 </p>
 
 [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07?activetab=pivot:overviewtab)
@@ -280,13 +272,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/109563822-1ec6e880-7a95-11eb-8d4b-a051178da3e2.png">
 </p>
-
-[Pengwin](https://www.microsoft.com/en-us/p/pengwin/9nv1gv1pxz6p?activetab=pivot:overviewtab)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/109563833-225a6f80-7a95-11eb-93e8-f40799469bcc.png">
-</p>
-
 
 [Fedora Remix for WSL](https://www.microsoft.com/en-us/p/fedora-remix-for-wsl/9n6gdm4k2hnc?activetab=pivot:overviewtab)
 
