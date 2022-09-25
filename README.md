@@ -158,7 +158,7 @@ The command you use to import the WSL2 image back into WSL2, either on the same 
 
 **[Systemd support is now available in WSL.](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)**
 
-**WSL Systemd requirements:** If you are running Windows 11 and a version of WSL 0.67.6 or above. 
+**WSL Systemd requirements:** Windows 11 and a version of WSL 0.67.6 or above. 
 
 [systemd](https://systemd.io/) is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as PID 1 and starts the rest of the system. It provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for [SysVinit](https://wiki.archlinux.org/title/SysVinit).
 
@@ -762,7 +762,7 @@ We have successfully created a single-node Kubernetes cluster.
 
 * **Note:** This install option requires systemd to be running on WSL
 
-* **WSL Systemd requirements:** If you are running Windows 11 and a version of WSL 0.67.6 or above. 
+* **WSL Systemd requirements:** Windows 11 and a version of WSL 0.67.6 or above. 
 
 [MicroK8s](https://microk8s.io/) is the simplest production-grade upstream Kubernets setup to get up and running.
 
