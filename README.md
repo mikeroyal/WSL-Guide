@@ -19,6 +19,7 @@
     * [Developer Resources](https://github.com/mikeroyal/WSL-Guide#developer-resources)
     * [Books](https://github.com/mikeroyal/WSL-Guide#books)
     * [Creating Backup & Restore Images in WSL 2](https://github.com/mikeroyal/WSL-Guide#creating-backup--restore-images-in-wsl-2)
+    * [Setting up Zsh and Oh My Zsh in WSL 2](https://github.com/mikeroyal/WSL-Guide#setting-up-zsh-and-oh-my-zsh-in-wsl-2)
     * [Linux Software Package Formats & Package Managers](https://github.com/mikeroyal/WSL-Guide#linux-software-package-formats--package-managers)
     * [Systemd](https://github.com/mikeroyal/WSL-Guide#systemd)  
     * [Init](https://github.com/mikeroyal/WSL-Guide#init)
@@ -121,8 +122,49 @@ You can take a look in the folder you specify for the backup to see the resultin
 The command you use to import the WSL2 image back into WSL2, either on the same machine or a different machine is as follows:
 
 ```wsl --import <Image Name> <Directory where you want to store the imported image> <Directory where the exported .tar file exists>```
-     
-     
+
+### Setting up Zsh and Oh My Zsh in WSL 2
+
+[Back to the Top](#table-of-contents)
+
+* **[Zsh (Z shell)](https://www.zsh.org/)** is an extended version of the Bourne Shell (sh) that includes plenty of new features, and support for plugins and themes.
+
+* **[Oh My Zsh](https://ohmyz.sh/)** is an open source, community-driven framework for managing your zsh configuration. It provides thousands of helpful functions, helpers, plugins, themes.
+
+**Install Zsh and Oh My Zsh:**
+
+```sudo apt update```
+
+``` sudo apt upgrade```
+
+```sudo apt install git zsh -y```
+
+```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh-master/tools/install.sh)"```
+
+It should prompt you and ask if you want to enable zsh. **Enter 'Y' to continue**.
+
+**Note:** If you have trouble getting Zsh to start you may want to try the following:
+
+```zsh```
+
+```chsh -s $(which zsh)```
+
+**Adding Aliases to Zsh**
+
+**To add aliases, you’ll have to edit the ```.zshrc file``` in your home directory. For this, run the following command to open up the file:**
+
+```vi ~/.zshrc```
+
+**This will open the file in your editor. Scroll to the end of the file and the following lines:**
+
+```alias gd="git diff"```
+
+```alias gcmsg="git commit -m"```
+
+```alias gitc="git checkout"```
+
+```alias gitm="git checkout master"```
+          
 ### Linux Software Package Formats & Package Managers
 [Back to the Top](#table-of-contents)
 
