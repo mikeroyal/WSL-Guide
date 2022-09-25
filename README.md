@@ -143,6 +143,11 @@ The command you use to import the WSL2 image back into WSL2, either on the same 
 
 It should prompt you and ask if you want to enable zsh. **Enter 'Y' to continue**.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/192134414-65fc8e87-0d73-47e4-88a1-eb7070cf4136.png">
+  <br />
+</p>
+
 **Note:** If you have trouble getting Zsh to start you may want to try the following:
 
 ```zsh```
@@ -155,7 +160,7 @@ It should prompt you and ask if you want to enable zsh. **Enter 'Y' to continue*
 
 ```vi ~/.zshrc```
 
-**This will open the file in your editor. Scroll to the end of the file and the following lines:**
+**This will open the file in your editor. Scroll to the end of the file and add the following lines:**
 
 ```alias gd="git diff"```
 
