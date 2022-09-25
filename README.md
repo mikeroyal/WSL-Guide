@@ -65,6 +65,8 @@
  * [Developing in Windows Subsystem for Linux (WSL) 2](https://code.visualstudio.com/docs/remote/wsl)
 
  * [Using WSL 2 with Visual Studio Code](https://code.visualstudio.com/blogs/2019/09/03/wsl2)
+ 
+ * [GnuPG Tool for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=JHeilingbrunner.vscode-gnupg-tool)
 
  * [GPU accelerated machine learning training in the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gpu-compute)
 
