@@ -35,6 +35,7 @@
 6. [Google Cloud](https://github.com/mikeroyal/WSL-Guide#google-cloud-platform-gcp)
 
 7. [Kubernetes](https://github.com/mikeroyal/WSL-Guide#kubernetes)
+    * [Setting up Podman](https://github.com/mikeroyal/WSL-Guide#setting-up-podman)
     * [Installing Kubernetes on WSL with Rancher Desktop](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-rancher-desktop)
     * [Installing Kubernetes on WSL with Docker Desktop](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-docker-desktop)
     * [Installing Kubernetes on WSL with Microk8s](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-microk8s)
@@ -762,6 +763,24 @@ Linux Boot Process
 
 **Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/)**
 
+### Setting up Podman
+
+[Back to the Top](#table-of-contents)
+
+[Podman (the POD manager)](https://podman.io/) is an open source tool for developing, managing, and running containers on your Linux® systems. It also manages the entire container ecosystem using the libpod library.  Podman’s daemonless and inclusive architecture makes it a more secure and accessible option for container management, and its accompanying tools and features, such as [Buildah](https://www.redhat.com/en/topics/containers/what-is-buildah) and [Skopeo](https://www.redhat.com/en/topics/containers/what-is-skopeo), allow developers to customize their container environments to best suit their needs. 
+
+ * Fedora: ```sudo dnf install podman```
+ * CentOS: ```sudo yum --enablerepo=extras install podman```
+ * Ubuntu 20.04 or later: ```sudo apt install podman```
+ * Debian 11 (bullseye) or later, or sid/unstable: ```sudo apt install podman```
+ * ArchLinux: ```sudo pacman -S podman``` and then tweaks for rootless 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193426691-d47b65df-bd28-4c60-82f8-282005392556.png">
+  <br />
+ Podman
+</p>
+
 ### Installing Kubernetes on WSL with Rancher Desktop
 
 [Back to the Top](#table-of-contents)
@@ -819,7 +838,6 @@ Linux Boot Process
   <br />
  Rancher Desktop Architecture Overview
 </p>
-
 
 ### Installing Kubernetes on WSL with Docker Desktop
 
