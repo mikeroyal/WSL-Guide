@@ -35,9 +35,10 @@
 6. [Google Cloud](https://github.com/mikeroyal/WSL-Guide#google-cloud-platform-gcp)
 
 7. [Kubernetes](https://github.com/mikeroyal/WSL-Guide#kubernetes)
+    * [Installing Kubernetes on WSL with Rancher Desktop](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-rancher-desktop)
     * [Installing Kubernetes on WSL with Docker Desktop](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-docker-desktop)
     * [Installing Kubernetes on WSL with Microk8s](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-microk8s)
-
+   
 8. [PowerShell Development](https://github.com/mikeroyal/WSL-Guide#powershell-development)
 
 9. [Wayland Development](https://github.com/mikeroyal/WSL-Guide#wayland-development)
@@ -760,6 +761,65 @@ Linux Boot Process
 <img src="https://user-images.githubusercontent.com/45159366/105645195-db9ea780-5e4e-11eb-8357-fb38b2f06d74.png">
 
 **Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/)**
+
+### Installing Kubernetes on WSL with Rancher Desktop
+
+[Back to the Top](#table-of-contents)
+
+[Rancher Desktop](https://www.rancher.com/products/rancher-desktop) is an open-source desktop application for Mac, Windows and Linux. Rancher Desktop runs Kubernetes and container management on your desktop letting you choose the version of Kubernetes you want to run. It can also build, push, pull, and run container images using either the Docker CLI (with Moby/dockerd) or nerdctl (with containerd).
+
+ **Features:**
+
+  * Installs a new Linux VM in WSL2 that has a Kubernetes cluster based on [k3s](https://k3s.io/) as well as installs various components in it such as KIM (for building docker images on the cluster) and the [Traefik Ingress Controller](https://traefik.io/solutions/kubernetes-ingress/).
+ 
+  * It installs the kubectl and Helm CLIs on the Windows side linked to them.
+ 
+  * A nice Windows app to manage its settings and help facilitate its upgrades.
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193426266-8fa9222c-f1b1-4bd4-ad1f-3a9e99e6fb06.png">
+  <br />
+ Rancher Desktop 
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193426337-263c38d0-d875-49ef-931d-693a018c4805.png">
+  <br />
+ Rancher Desktop Kubernetes Settings
+</p>
+
+#### .deb Dev Repository
+
+```curl -s https://download.opensuse.org/repositories/isv:/Rancher:/dev/deb/Release.key | gpg --dearmor | sudo dd status=none of=/usr/share/keyrings/isv-rancher-dev-archive-keyring.gpg```
+
+```echo 'deb [signed-by=/usr/share/keyrings/isv-rancher-dev-archive-keyring.gpg] https://download.opensuse.org/repositories/isv:/Rancher:/dev/deb/ ./' | sudo dd status=none of=/etc/apt/sources.list.d/isv-rancher-dev.list```
+
+```sudo apt update```
+
+**See available versions**
+
+```apt list -a rancher-desktop```
+
+```sudo apt install rancher-desktop=<version>```
+
+#### .rpm Dev Repository
+
+```sudo zypper addrepo https://download.opensuse.org/repositories/isv:/Rancher:/dev/rpm/isv:Rancher:dev.repo```
+
+```sudo zypper refresh```
+
+**See available versions**
+
+```zypper search -s rancher-desktop```
+
+```zypper install --oldpackage rancher-desktop=<version>```
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193425700-2b184434-a2c8-4bd6-9e17-9eb278fa490c.png">
+  <br />
+ Rancher Desktop Architecture Overview
+</p>
+
 
 ### Installing Kubernetes on WSL with Docker Desktop
 
