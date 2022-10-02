@@ -21,6 +21,7 @@
     * [Creating Backup & Restore Images in WSL 2](https://github.com/mikeroyal/WSL-Guide#creating-backup--restore-images-in-wsl-2)
     * [Setting up Zsh and Oh My Zsh in WSL 2](https://github.com/mikeroyal/WSL-Guide#setting-up-zsh-and-oh-my-zsh-in-wsl-2)
     * [Linux Software Package Formats & Package Managers](https://github.com/mikeroyal/WSL-Guide#linux-software-package-formats--package-managers)
+    * [File systems](https://github.com/mikeroyal/WSL-Guide#file-systems)
     * [Systemd](https://github.com/mikeroyal/WSL-Guide#systemd)  
     * [Init](https://github.com/mikeroyal/WSL-Guide#init)
 
@@ -202,6 +203,41 @@ It should prompt you and ask if you want to enable zsh. **Enter 'Y' to continue*
 
 [Pacman](https://archlinux.org/pacman/) is a utility which manages software packages in Arch Linux. It uses simple compressed files as a package format, and maintains a text-based package database (more of a hierarchy), just in case some hand tweaking is necessary. 
 
+### File systems
+
+[Back to the Top](#table-of-contents)
+
+[GlusterFS](https://www.gluster.org/) is a free and open source scalable network filesystem. Gluster is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks.
+
+[Ceph](https://ceph.io/) is a software-defined storage solution designed to address the object, block, and file storage needs of data centers adopting open source as the new norm for high-growth block storage, object stores and data lakes.
+
+[Hadoop Distributed File System (HDFS)](https://www.ibm.com/analytics/hadoop/hdfs) is a distributed file system that handles large data sets running on commodity hardware. It is used to scale a single Apache Hadoop cluster to hundreds (and even thousands) of nodes. HDFS is one of the major components of Apache Hadoop, the others being [MapReduce](https://www.ibm.com/analytics/hadoop/mapreduce) and [YARN](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+
+[ZFS](https://docs.oracle.com/cd/E19253-01/819-5461/zfsover-2/) is an enterprise-ready open source file system and volume manager with unprecedented flexibility and an uncompromising commitment to data integrity.
+
+[OpenZFS](https://openzfs.org/wiki/Main_Page ) is an open-source storage platform. It includes the functionality of both traditional file systems and volume manager. It has many advanced features including:
+
+  - Protection against data corruption.
+  - Integrity checking for both data and metadata.
+  - Continuous integrity verification and automatic "self-healing" repair.
+
+[Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. Its main features and benefits are:
+
+  * Snapshots which do not make the full copy of files
+  * RAID - support for software-based RAID 0, RAID 1, RAID 10
+  * Self-healing - checksums for data and metadata, automatic detection of silent data corruptions
+  
+[MergerFS](https://github.com/trapexit/mergerfs) is a union filesystem geared towards simplifying storage and management of files across numerous commodity storage devices. It is similar to mhddfs, unionfs, and aufs.
+  
+[Bcachefs](https://bcachefs.org/) is an advanced new filesystem for Linux, with an emphasis on reliability and robustness and the complete set of features one would expect from a modern filesystem. Scalability has been tested to 50+ TB, will eventually scale far higher. 
+
+[Ext4](https://ext4.wiki.kernel.org/index.php/Ext4_Howto) is a journaling file system for Linux, developed as the successor to ext3
+
+[Squashfs](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) is a compressed read-only filesystem for Linux. It uses zlib, lz4, lzo, or xz compression to compress files, inodes and directories. Inodes in the system are very small and all blocks are packed to minimize data overhead.
+
+[NTFS(New Technology File System)](https://docs.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) is the primary file system for recent versions of Windows and Windows Server—provides a full set of features including security descriptors, encryption, disk quotas, and rich metadata, and can be used with Cluster Shared Volumes (CSV) to provide continuously available volumes that can be accessed simultaneously from multiple nodes of a failover cluster.
+
+[exFAT(Extended File Allocation Table )](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification) is the file system that was the successor to FAT32 in the FAT family of file systems. It was optimized for flash memory such as USB flash drives and SD cards.
 
 ### Systemd
 [Back to the Top](#table-of-contents)
