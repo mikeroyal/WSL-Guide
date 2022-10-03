@@ -892,6 +892,10 @@ Linux Boot Process
 
 ```crc delete```
 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/193534587-c86d546f-814b-420d-ac45-15d5c2ca6ede.png">
+  <br />
+</p>
 
 ### Setting up Podman
 
