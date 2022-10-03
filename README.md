@@ -36,6 +36,7 @@
 6. [Google Cloud](https://github.com/mikeroyal/WSL-Guide#google-cloud-platform-gcp)
 
 7. [Kubernetes](https://github.com/mikeroyal/WSL-Guide#kubernetes)
+    * [Red Hat CodeReady Containers (CRC) OpenShift](https://github.com/mikeroyal/WSL-Guide#Red-Hat-CodeReady-Containers-CRC)
     * [Setting up Podman](https://github.com/mikeroyal/WSL-Guide#setting-up-podman)
     * [Setting up Buildah](https://github.com/mikeroyal/WSL-Guide#setting-up-buildah)
     * [Installing Kubernetes on WSL with Rancher Desktop](https://github.com/mikeroyal/WSL-Guide#installing-kubernetes-on-wsl-with-rancher-desktop)
@@ -799,6 +800,98 @@ Linux Boot Process
 <img src="https://user-images.githubusercontent.com/45159366/105645195-db9ea780-5e4e-11eb-8357-fb38b2f06d74.png">
 
 **Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/)**
+
+### Red Hat CodeReady Containers (CRC)
+
+[Back to the Top](#table-of-contents)
+
+[Red Hat CodeReady Containers (CRC)](https://developers.redhat.com/content-gateway/rest/mirror/pub/openshift-v4/clients/crc/2.9.0) is a tool that provides a minimal, preconfigured OpenShift 4 cluster on a laptop or desktop machine for development and testing purposes. CRC is delivered as a platform inside of the VM.
+
+ * **odo (OpenShift Do)**, a CLI tool for developers, to manage application components on the OpenShift Container Platform.
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/193531714-a4316c2c-4ba9-4d31-86cf-7a3edc6f6375.png">
+  <br />
+</p>
+
+**System Requirements:**
+
+   * **OS:** CentOS Stream 8/RHEL 8/Fedora or later (the latest 2 releases).
+   * **Download:** [pull-secret](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=701f20000012ngPAAQ)
+   * **Login:** [Red Hat account](https://access.redhat.com/login)
+
+**Other physical requirements include:**
+
+   * Four virtual CPUs (**4 vCPUs**)
+   * 10GB of memory (**RAM**)
+   * 40GB of storage space
+
+**To set up CodeReady Containers, start by creating the ```crc``` directory, and then download and extract the ```crc``` package:**
+
+```mkdir /home/<user>/crc```
+
+```wget https://mirror.openshift.com/pub/openshift-v4/clients/crc/latest/crc-linux-amd64.tar.xz```
+
+```tar -xvf crc-linux-amd64.tar.xz```
+
+**Next, move the files to the crc directory and remove the downloaded package(s):**
+
+```mv /home/<user>/crc-linux-<version>-amd64/* /home/<user>/crc```
+
+```rm /home/<user>/crc-linux-amd64.tar.xz```
+
+```rm -r /home/<user>/crc-linux-<version>-amd64```
+
+**Change to the ```crc``` directory, make ```crc``` executable, and export your ```PATH``` like this:**
+
+```cd /home/<user>/crc```
+
+```chmod +x crc```
+
+```export PATH=$PATH:/home/<user>/crc```
+
+**Set up and start the cluster:**
+
+```crc setup```
+
+```crc start -p /<path-to-the-pull-secret-file>/pull-secret.txt```
+
+**Set up the OC environment:**
+
+```crc oc-env```
+
+```eval $(crc oc-env)```
+
+**Log in as the developer user:**
+
+```oc login -u developer -p developer https://api.crc.testing:6443```
+
+```oc logout```
+
+**And then, log in as the platform’s admin:**
+
+```oc login -u kubeadmin -p password https://api.crc.testing:6443```
+
+```oc logout```
+
+#### Interacting with the cluster. The most common ways include:
+
+**Starting the graphical web console:**
+
+```crc console```
+
+**Display the cluster’s status:**
+
+ ```crc status```
+
+**Shut down the OpenShift cluster:**
+
+```crc stop```
+
+**Delete or kill the OpenShift cluster:**
+
+```crc delete```
+
 
 ### Setting up Podman
 
