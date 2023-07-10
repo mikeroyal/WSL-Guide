@@ -217,6 +217,9 @@ It should prompt you and ask if you want to enable zsh. **Enter 'Y' to continue*
 
 The Linux kernel is the main component of a Linux operating system (OS) and is the core interface between a computer’s hardware and its processes. It communicates between the 2, managing resources as efficiently as possible.
 
+ * [WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel), is a repo contains the kernel source code and configuration files for the WSL2 kernel.
+ 
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/219989150-5b6d5f1d-e7f8-4c5e-8fb9-5359f1acc54d.png">
   <br />
