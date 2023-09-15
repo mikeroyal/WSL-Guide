@@ -129,6 +129,11 @@ N
 
 [Nala](https://gitlab.com/volian/nala) is a commandline frontend for the APT package manager. 
 
+[Nix Flake Checker](https://github.com/DeterminateSystems/flake-checker) is a tool from Determinate Systems that performs "health" checks on the flake.lock files in your flake-powered Nix projects. Its goal is to help your Nix projects stay on recent and supported versions of Nixpkgs.
+
+[NixOS Anywhere](https://numtide.github.io/nixos-anywhere/) is a tool that let's you install NixoS everywhere via ssh on a target machine running x86_64 Linux with [kexec](https://man7.org/linux/man-pages/man8/kexec.8.html) support. If you're installing NixOS, the nixos-anywhere (formerly known as nixos-remote) tool allows you to pre-configure the whole process.
+
+[nix2container](https://github.com/nlewo/nix2container) is a tool that provides an efficient container development workflow with images built by Nix: it doesn't write tarballs to the Nix store and allows to skip already pushed layers (without having to rebuild them).
 
 O
 
