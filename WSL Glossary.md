@@ -74,6 +74,8 @@ F
 
 [fish shell](https://fishshell.com/) is a friendly interactive shell. It's a smart and user-friendly command line shell for macOS, Linux, and WSL.
 
+[FlakeHub](https://flakehub.com/new) is a platform developed by [Determinate Systems](https://determinate.systems/) for discovering and publishing [Nix flakes](https://zero-to-nix.com/concepts/flakes).
+
 [FlatHub](https://flathub.org/) is a build and distribution service for Flatpak applications.
 
 [FreeRDP](https://github.com/FreeRDP/FreeRDP) is a free remote desktop protocol library and clients.
