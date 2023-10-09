@@ -208,6 +208,8 @@ U
 
 [Ubuntu](https://ubuntu.com/) is a modern open source operating system on Linux for the enterprise Server, Desktop, Cloud, and IoT developed by Canonical.
 
+[Ubuntu Core](https://ubuntu.com/core) is a secure and minimal version of Ubuntu that is designed for IoT and embedded systems. Ubuntu Core updates itself and its applications automatically using [snap packages](https://snapcraft.io/store) exclusively to create a confined-based system.
+
 [Ubuntu on WSL](https://wiki.ubuntu.com/WSL) is a wiki guide on getting started with the latest version of Ubuntu installed and setup on WSL for Windows 10/11
 
 [Ubuntu Pro for Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/canonical.0001-com-ubuntu-pro-focal?tab=Overview) is a premium image designed by Canonical optimized for production environments running on Azure. .
