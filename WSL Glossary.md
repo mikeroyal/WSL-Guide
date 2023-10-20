@@ -198,6 +198,8 @@ S
 
 [Synaptic Package Manager](https://en.wikipedia.org/wiki/Synaptic_%28software%29) is a graphical package management tool based on APT.
 
+[Simple Wireplumber GUI](https://github.com/dyegoaurelio/simple-wireplumber-gui) is a tool you can easily rename and see the properties of your audio devices if you're running **pipewire** as your audio server and **wireplumber** as it's session and policy manager.
+
 [SUSE](https://www.suse.com) makers of SUSE Enterprise Linux.
 
 T
@@ -228,7 +230,9 @@ W
 
 [WSLg](https://github.com/microsoft/wslg) is the Windows Subsystem for Linux GUI and the purpose of the project is to enable support for running Linux GUI applications (X11 and [Wayland](https://wayland.freedesktop.org/)) on Windows in a fully integrated desktop experience. WSLg uses the [Weston compositor](https://github.com/wayland-project/weston), which is the standard Weston compositor with a heavily expanded RDP backend, a new RAIL/VAIL shell and various bug fixes. 
 
-[wslu](https://github.com/wslutilities/wslu) is a collection of utilities for Windows 10 Linux Subsystem, such as retrieving Windows 10 environment variables or creating your favorite Linux GUI application shortcuts on Windows 10 Desktop.
+[wslu](https://github.com/wslutilities/wslu) is a collection of utilities for Windows 10/11 Linux Subsystem, such as retrieving Windows 10 environment variables or creating your favorite Linux GUI application shortcuts on Windows 10 Desktop.
+
+[wlroots-based](https://gitlab.freedesktop.org/wlroots) is a compositor library and defines a large and diverse ecosystem around wlr-protocols. It implements a huge variety of Wayland compositor features and implements them right, so you can focus on the features that make your compositor unique. 
 
 [WirePlumber](https://pipewire.pages.freedesktop.org/wireplumber/) is a modular session / policy manager for [PipeWire](https://pipewire.org/) and a GObject-based high-level library that wraps PipeWire’s API, providing convenience for writing the daemon’s modules as well as external tools for managing PipeWire. 
 
