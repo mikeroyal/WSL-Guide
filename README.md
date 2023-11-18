@@ -24,6 +24,7 @@
 1. [Getting Started with WSL](https://github.com/mikeroyal/WSL-Guide#getting-started-with-wsl)
     * [Developer Resources](https://github.com/mikeroyal/WSL-Guide#developer-resources)
     * [Books](https://github.com/mikeroyal/WSL-Guide#books)
+    * [YouTube Videos](#youtube-videos)
     * [Creating Backup & Restore Images in WSL 2](https://github.com/mikeroyal/WSL-Guide#creating-backup--restore-images-in-wsl-2)
     * [Setting up Zsh and Oh My Zsh in WSL 2](https://github.com/mikeroyal/WSL-Guide#setting-up-zsh-and-oh-my-zsh-in-wsl-2)
     * [Linux Software Package Formats & Package Managers](https://github.com/mikeroyal/WSL-Guide#linux-software-package-formats--package-managers)
@@ -110,6 +111,17 @@
 * [Pro Windows Subsystem for Linux (WSL): Powerful Tools and Practices for Cross-Platform Development and Collaboration Book by Hayden Barnes](https://www.amazon.com/Windows-Subsystem-Linux-Cross-Platform-Collaboration/dp/1484268725/ref=sr_1_1?dchild=1&keywords=Pro+Windows+Subsystem+for+Linux+%28WSL%29&qid=1614379171&s=digital-text&sr=1-1-catcorr)
 
 * [Windows Subsystem for Linux 2 (WSL 2) Tips, Tricks, and Techniques Book by Stuart Leeks](https://www.amazon.com/Windows-Subsystem-Linux-Tricks-Techniques-ebook/dp/B08K98C7DB/ref=sr_1_1?dchild=1&keywords=WSL+book&qid=1614379053&s=digital-text&sr=1-1)
+
+### YouTube videos
+
+[Back to the Top](#table-of-contents)
+ 
+[![I Coded with WSL2 for a Week](https://ytcards.demolab.com/?id=LktFP0Dpl-c&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "I Coded with WSL2 for a Week")](https://www.youtube.com/watch?v=LktFP0Dpl-c)
+[![How to Install Ubuntu on Windows 11 (WSL)](https://ytcards.demolab.com/?id=wjbbl0TTMeo&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to Install Ubuntu on Windows 11 (WSL)")](https://www.youtube.com/watch?v=wjbbl0TTMeo)
+[![Ubuntu Desktop/GUI Apps on WSL | Updated Guide](https://ytcards.demolab.com/?id=7Sym3uL6YWo&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Ubuntu Desktop/GUI Apps on WSL | Updated Guide")](https://www.youtube.com/watch?v=7Sym3uL6YWo)
+[![How to install and get started with WSL 2 on Windows 11](https://ytcards.demolab.com/?id=YByZ_sOOWsQ&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to install and get started with WSL 2 on Windows 11")](https://www.youtube.com/watch?v=YByZ_sOOWsQ)
+[![Windows development setup with WSL2, ZSH, VSCode, and more](https://ytcards.demolab.com/?id=oF6gLyhQDdw&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Windows development setup with WSL2, ZSH, VSCode, and more")](https://www.youtube.com/watch?v=oF6gLyhQDdw)
+[![Docker Complete Setup on Windows (With WSL Ubuntu)](https://ytcards.demolab.com/?id=2ezNqqaSjq8&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Docker Complete Setup on Windows (With WSL Ubuntu)")](https://www.youtube.com/watch?v=2ezNqqaSjq8)
 
 ### Creating Backup & Restore Images in WSL 2
 
